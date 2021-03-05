@@ -1,22 +1,22 @@
 /* GENERAL */
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body{
-  font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
   background-color: white;
   color: black;
 }
 
-.bg-grey-color{
-  background-color: #F4F9FD;
+.bg-grey-color {
+  background-color: #f4f9fd;
 }
 
-.clearfix::after{
-  content: '';
+.clearfix::after {
+  content: "";
   display: table;
   clear: both;
 }
@@ -25,11 +25,11 @@ body{
   float: left;
 }
 
-.col-2{
+.col-2 {
   width: calc(100% / 2);
 }
 
-.col-3{
+.col-3 {
   width: calc(100% / 3);
 }
 
@@ -41,7 +41,7 @@ body{
   width: 80%;
 }
 
-.box-white-shadow{
+.box-white-shadow {
   background-color: white;
   border-radius: 5px;
   box-shadow: 2px 2px grey;
@@ -49,26 +49,26 @@ body{
 
 .btn {
   display: inline-block;
-  color: #F9775A;
+  color: #f9775a;
   border-radius: 5px;
-  border: 1px solid #F9775A;
+  border: 1px solid #f9775a;
   line-height: 20px;
   padding: 5px 10px;
   text-decoration: none;
   font-size: 80%;
 }
 
-.btn.btn-large{
+.btn.btn-large {
   padding: 20px 20px;
 }
 
 .btn.btn-color {
-  background-color: #F9775A;
+  background-color: #f9775a;
   color: white;
 }
 
 .btn.btn-color:active {
-  background-color: #F98B73;
+  background-color: #f98b73;
 }
 .btn.btn-color:hover {
   color: whitesmoke;
@@ -78,7 +78,7 @@ body{
 /* allineare i min width? */
 
 /* NAV-BAR FISSA */
-.nav-bar-container{
+.nav-bar-container {
   width: 100%;
   height: 80px;
   padding: 0 10%;
@@ -89,58 +89,62 @@ body{
   min-width: 1200px;
 }
 
-.nav-bar{
+.nav-bar {
   height: 100%;
   line-height: 80px;
 }
 
-.nav-bar li{
+.nav-bar li {
   list-style: none;
 }
 
-.nav-bar a{
+.nav-bar a {
   color: black;
   text-decoration: none;
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover {
   color: coral;
 }
 
 .nav-bar-left li,
-.nav-bar-right li{
+.nav-bar-right li {
   display: inline;
 }
 
-.nav-bar-left li:first-child a{
+.nav-bar-left li:first-child a {
   border-right: 1px solid black;
   padding-right: 4%;
 }
 
-.nav-bar-left li:nth-child(2) a{
+.nav-bar-left li:nth-child(2) a {
   padding-left: 4%;
 }
 
-.nav-bar-right{
+.nav-bar-right {
   text-align: right;
 }
 
-.nav-bar-right li{
+.nav-bar-right li {
   margin-left: 4%;
 }
 
-.nav-bar-right li:nth-child(1) a{
-  color: #25A4BD;
+.nav-bar-right li:nth-child(1) a {
+  color: #25a4bd;
 }
 /* NAV-BAR FISSA */
 
-header{
+header {
   margin-top: 80px;
-  height: 763px;
+  height: 700px;
   background-color: coral;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-nav{
+nav {
   width: 100%;
   height: 80px;
   padding: 0 10%;
@@ -148,48 +152,45 @@ nav{
   background-color: white;
 }
 
-.nav-menu{
+.nav-menu {
   height: 100%;
   line-height: 80px;
 }
 
-.nav-menu a:hover{
+.nav-menu a:hover {
   color: coral;
 }
 
-.nav-menu-left{
+.nav-menu-left {
   width: 30%;
 }
 
-.nav-menu-right{
+.nav-menu-right {
   width: 70%;
   text-align: right;
 }
 
-.nav-menu-left img{
+.nav-menu-left img {
   padding-top: 6%;
 }
 
-.nav-menu-right li{
+.nav-menu-right li {
   display: inline;
   list-style: none;
 }
 
-.nav-menu-right li a{
+.nav-menu-right li a {
   color: black;
   text-decoration: none;
   margin-left: 4%;
 }
 
-/* HEADER CONTAINER */
+/* HEADER */
 .header-container {
   width: 100%;
   height: 100%;
   min-width: 1200px;
   padding: 0 10%;
-  background-image: url(../img/jumbotron.png);
-  background-size:contain;
-  background-repeat: no-repeat;
 }
 
 .jumbotron {
@@ -203,21 +204,53 @@ nav{
   transform: translateY(-50%);
 }
 
-.jumbotron-text h1{
+.jumbotron-text h1 {
   font-size: 2.8em;
   margin-bottom: 5%;
 }
 
-.jumbotron-text p{
+.jumbotron-text p {
   margin-bottom: 5%;
 }
 
-.jumbotron-text li{
+.jumbotron-text li {
   list-style: none;
   margin-bottom: 5%;
 }
 
-.jumbotron-text p:nth-child(4){
+.jumbotron-text p:nth-child(4) {
   font-size: 0.8em;
 }
-/* / HEADER CONTAINER */
+/* / HEADER */
+
+/* MAIN */
+#main-container_1 {
+  width: 100%;
+  height: 500px;
+  padding: 0 10%;
+}
+
+.cube {
+  background-color: darkorange;
+  text-align: center;
+  padding-top: 2%;
+}
+
+.cube-image {
+  width: 25%;
+  margin: auto;
+}
+
+.cube-image img {
+  width: 100%;
+}
+
+.cube-text h2 {
+  padding-bottom: 2%;
+}
+
+.cube-text p {
+  padding: 0 8% 2% 8%;
+}
+
+/* /MAIN */
