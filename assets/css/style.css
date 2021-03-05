@@ -7,8 +7,13 @@
 
 body{
   font-family: 'Montserrat', sans-serif;
-  background-color: #F4F9FD;
+  background-color: white;
   color: black;
+  min-width: 1200px;
+}
+
+.bg-color{
+  background-color: #F4F9FD;
 }
 
 .clearfix::after{
@@ -33,6 +38,10 @@ body{
   width: 50%;
 }
 
+.w-80 {
+  width: 80%;
+}
+
 .box-white-shadow{
   background-color: white;
   border-radius: 5px;
@@ -46,16 +55,17 @@ body{
   border: 1px solid #F9775A;
   line-height: 20px;
   padding: 5px 10px;
-  text-transform: uppercase;
   text-decoration: none;
   font-size: 80%;
+}
+
+.btn.btn-large{
+  padding: 25px 25px;
 }
 
 .btn.btn-color {
   background-color: #F9775A;
   color: white;
-  padding-left: 30px;
-  padding-right: 30px;
 }
 
 .btn.btn-color:active {
@@ -65,3 +75,65 @@ body{
   color: whitesmoke;
 }
 /* GENERAL */
+
+/* NAV-BAR FISSA */
+.nav-bar-container{
+  width: 100%;
+  height: 80px;
+  padding: 0 10%;
+  border-bottom: 1px solid black;
+  position: fixed;
+  top: 0;
+}
+
+.nav-bar{
+  height: 100%;
+  line-height: 80px;
+}
+
+.nav-bar li{
+  list-style: none;
+}
+
+.nav-bar a{
+  color: black;
+  text-decoration: none;
+}
+
+.nav-bar a:hover{
+  color: coral;
+}
+
+.nav-bar-left li,
+.nav-bar-right li{
+  display: inline;
+}
+
+.nav-bar-left li:first-child a{
+  border-right: 1px solid black;
+  padding-right: 10px;
+}
+
+.nav-bar-left li:nth-child(2) a{
+  padding-left: 10px;
+}
+
+.nav-bar-right{
+  text-align: right;
+}
+
+.nav-bar-right li:nth-child(1) a{
+  color: #25A4BD;
+}
+
+.nav-bar-right li:nth-child(1),
+.nav-bar-right li:nth-child(2){
+  padding-right: 10px;
+}
+/* NAV-BAR FISSA */
+
+nav{
+  height: 1000px;
+  background-color: blue;
+  padding-top: 80px;
+}
