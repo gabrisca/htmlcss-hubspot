@@ -37,8 +37,8 @@ body {
   width: 50%;
 }
 
-.w-80 {
-  width: 80%;
+.menu-inline{
+  display: inline-block;
 }
 
 h4 {
@@ -289,7 +289,6 @@ main {
 
 .free-hub-left-image img {
   height: 100%;
-  /* padding-bottom: 5%; */
 }
 
 .free-hub-left-text {
@@ -483,12 +482,12 @@ main {
   height: 100px;
 }
 
-.brands {
+.business-right .brands {
   width: 100%;
   height: 50%;
 }
 
-.brands img {
+.business-right .brands img {
   display: inline-block;
   width: 20%;
   margin-right: 4%;
@@ -528,17 +527,16 @@ footer{
   width: 100%;
   padding: 3% 10%;
   color: white;
+  text-transform: capitalize;
 }
 
 .footer-container{
   width: 100%;
   margin: auto;
-  background-color: red;
-  text-transform: capitalize;
+  padding-bottom: 5%;
 }
 
 .footer-menu{
-  background-color: teal;
   width: calc(100% / 4);
 }
 
@@ -554,10 +552,12 @@ footer p{
   margin-bottom: 4%;
 }
 
+.footer-info ul li:hover a,
 .footer-menu ul li:hover a{
   color: coral;
 }
 
+.footer-info ul li a,
 .footer-menu ul li a{
   color: white;
 }
@@ -569,14 +569,40 @@ footer p{
 }
 
 .footer-menu .btn:active{
-  background-color: #c51f8665;
+  background-color: #dadee0b6;
 }
 
 .footer-menu .btn:hover{
   color: coral;
 }
 
-.menu-inline{
+.footer-menu ul li.menu-inline{
+  padding-right: 10%;
+}
+
+.footer-info .language{
+  text-align: center;
+}
+
+.footer-info .language{
+  border-bottom: 1px solid white;
+}
+
+.footer-info .language li{
+  margin-right: 3%;
+  padding-bottom: 2%;
+}
+
+.footer-info .legal {
+  padding-top: 3%;
+}
+
+.footer-info .legal-menu ul{
+  text-align: right;
+}
+
+.footer-info .legal-menu li{
   display: inline-block;
+  padding-left: 5%;
 }
 /* / FOOTER */
