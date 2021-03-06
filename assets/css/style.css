@@ -225,7 +225,7 @@ nav {
   margin-bottom: 5%;
 }
 
-.jumbotron-text p:nth-child(4) {
+.jumbotron-text p:last-child {
   font-size: 0.8em;
 }
 /* / HEADER */
@@ -370,12 +370,15 @@ main {
   padding-bottom: 10%;
   text-align: left;
 }
+
+.features-container-text ul:last-child {
+  text-align: center;
+}
 /* /MAIN - MAIN CONTAINER 1 - FEATURES*/
 
 /* MAIN - LEARN AND GROW*/
 #learn_and_grow {
   width: 100%;
-  /* height: 500px; */
   padding: 3% 10%;
   background-image: linear-gradient(45deg, #00a4bd, #00bda5);
 }
@@ -446,3 +449,73 @@ main {
 .goal h1 {
   margin-bottom: 10px;
 }
+/* / MAIN - LEARN AND GROW*/
+
+/* MAIN - MAIN CONTAINER 2*/
+#main-container_2 {
+  width: 100%;
+  min-width: 1200px;
+  padding: 3% 10%;
+}
+
+/* MAIN - MAIN CONTAINER 2 - BUSINESS SECTION*/
+.business {
+  margin-bottom: 8%;
+}
+
+.business-left {
+  width: 33.3%;
+  margin-right: 2%;
+  padding-left: 8%;
+  padding-right: 5%;
+}
+
+.business-left h1 {
+  padding-bottom: 15%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.5em;
+}
+
+.business-right {
+  width: 64.6%;
+  height: 100px;
+}
+
+.brands {
+  width: 100%;
+  height: 50%;
+}
+
+.brands img {
+  display: inline-block;
+  width: 20%;
+  margin-right: 4%;
+  vertical-align: middle;
+}
+/* / MAIN - MAIN CONTAINER 2 - BUSINESS SECTION*/
+.get_started {
+  margin-bottom: 4%;
+  background-image: url(../img/woman.webp);
+  background-size: 257px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.get_started h1 {
+  padding-top: 5%;
+}
+
+.get_started h1,
+.get_started p,
+.get_started ul {
+  padding-bottom: 5%;
+}
+
+.get_started p:last-child {
+  font-size: 0.8em;
+}
+/* / MAIN - MAIN CONTAINER 2 - GET STARTED SECTION*/
+
+/* / MAIN - MAIN CONTAINER 2 */
+
+/* / MAIN  */
