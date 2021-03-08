@@ -37,7 +37,19 @@ body {
   width: 50%;
 }
 
-.menu-inline{
+.align-center {
+  text-align: center;
+}
+
+.alingn-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.menu-inline {
   display: inline-block;
 }
 
@@ -49,7 +61,7 @@ ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -133,10 +145,6 @@ i.fa-check-circle {
   padding-left: 4%;
 }
 
-.nav-bar-right {
-  text-align: right;
-}
-
 .nav-bar-right li {
   margin-left: 4%;
 }
@@ -179,7 +187,6 @@ nav {
 
 .nav-menu-right {
   width: 70%;
-  text-align: right;
 }
 
 .nav-menu-left img {
@@ -219,10 +226,7 @@ nav {
   margin-bottom: 5%;
 }
 
-.jumbotron-text p {
-  margin-bottom: 5%;
-}
-
+.jumbotron-text p,
 .jumbotron-text li {
   margin-bottom: 5%;
 }
@@ -245,7 +249,6 @@ main {
 
 /* MAIN - MAIN CONTAINER 1 - CUBE*/
 .cube {
-  text-align: center;
   padding-top: 2%;
 }
 
@@ -284,15 +287,10 @@ main {
 .free-hub-left-image {
   width: 100%;
   height: 130px;
-  text-align: center;
 }
 
 .free-hub-left-image img {
   height: 100%;
-}
-
-.free-hub-left-text {
-  text-align: center;
 }
 
 .free-hub-right h3,
@@ -322,14 +320,10 @@ main {
 /* MAIN - MAIN CONTAINER 1 - FEATURES*/
 .features {
   width: 100%;
-  text-align: center;
   padding-bottom: 4%;
 }
 
-.features .features-container:nth-child(1) {
-  margin-right: 2%;
-}
-
+.features .features-container:nth-child(1),
 .features .features-container:nth-child(2) {
   margin-right: 2%;
 }
@@ -386,10 +380,6 @@ main {
   min-width: 1200px;
 }
 
-.learn_and_grow-container {
-  text-align: center;
-}
-
 .learn_and_grow-container h1,
 .learn_and_grow-container p {
   color: white;
@@ -425,16 +415,13 @@ main {
   border-bottom: 1px solid white;
 }
 
-.hubspot-1 .goal:nth-child(4) {
+.hubspot-1 .goal:nth-child(4),
+.hubspot-2 .goal:nth-child(4) {
   border-right: none;
 }
 
 .hubspot-2 .goal {
   border-right: 1px solid white;
-}
-
-.hubspot-2 .goal:nth-child(4) {
-  border-right: none;
 }
 
 .goal-image {
@@ -523,73 +510,66 @@ main {
 /* / MAIN  */
 
 /* FOOTER */
-footer{
-  background-color: #32495B;
+footer {
+  background-color: #32495b;
   width: 100%;
   padding: 3% 10%;
   color: white;
   text-transform: capitalize;
 }
 
-.footer-container{
+.footer-container {
   width: 100%;
   margin: auto;
   padding-bottom: 5%;
 }
 
-.footer-menu{
+.footer-menu {
   width: calc(100% / 4);
 }
 
-footer h3{
+footer h3 {
   margin-bottom: 6%;
 }
 
-footer p{
+footer p {
   color: #8f8f8f;
 }
 
-.footer-menu ul li{
+.footer-menu ul li {
   margin-bottom: 4%;
 }
 
 .footer-info ul li:hover a,
-.footer-menu ul li:hover a{
+.footer-menu ul li:hover a,
+.footer-menu .btn:hover {
   color: coral;
 }
 
 .footer-info ul li a,
-.footer-menu ul li a{
+.footer-menu ul li a {
   color: white;
 }
 
-.footer-menu .btn{
-  color:  #32495B;
-  background-color: #DADEE0;
-  border-color: #DADEE0;
+.footer-menu .btn {
+  color: #32495b;
+  background-color: #dadee0;
+  border-color: #dadee0;
 }
 
-.footer-menu .btn:active{
+.footer-menu .btn:active {
   background-color: #dadee0b6;
 }
 
-.footer-menu .btn:hover{
-  color: coral;
-}
-
-.footer-menu ul li.menu-inline{
+.footer-menu ul li.menu-inline {
   padding-right: 10%;
 }
 
-.footer-info .language{
-  text-align: center;
-}
-
-.footer-info .language{
+.footer-info .language {
   border-bottom: 1px solid white;
 }
 
-.footer-info .language li{
+.footer-info .language li {
   margin-right: 3%;
   padding-bottom: 2%;
 }
@@ -598,11 +578,7 @@ footer p{
   padding-top: 3%;
 }
 
-.footer-info .legal-menu ul{
-  text-align: right;
-}
-
-.footer-info .legal-menu li{
+.footer-info .legal-menu li {
   display: inline-block;
   padding-left: 5%;
 }
