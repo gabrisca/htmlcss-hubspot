@@ -484,6 +484,7 @@ main {
 /* / MAIN - MAIN CONTAINER 2 - BUSINESS SECTION*/
 .get_started {
   margin-bottom: 4%;
+  padding-top: 2%;
   background-image: url(../img/woman.webp);
   background-size: 257px;
   background-repeat: no-repeat;
