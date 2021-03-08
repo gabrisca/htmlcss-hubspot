@@ -169,7 +169,7 @@ header {
 /*  HEADER - STRIP*/
 .strip {
   width: 100%;
-  height: 83px;
+  height: 12%;
   background-color: #afebe4;
   position: absolute;
   bottom: 0;
