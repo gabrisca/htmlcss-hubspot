@@ -414,7 +414,8 @@ main {
 .learn_and_grow-container h1::after {
   content: " \002b";
   font-size: small;
-  vertical-align: middle;
+  vertical-align: text-bottom;
+  line-height: 35px;
 }
 
 .goal {
