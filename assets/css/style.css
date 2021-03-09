@@ -104,8 +104,6 @@ i.fa-check-circle {
 }
 /* GENERAL */
 
-/* allineare i min width? */
-
 /* NAV-BAR FISSA */
 .nav-bar-container {
   width: 100%;
@@ -157,26 +155,8 @@ i.fa-check-circle {
 /* HEADER */
 header {
   margin-top: 80px;
-  height: 700px;
   background-color: coral;
-  background-image: url(../img/jumbotron.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
 }
-
-/*  HEADER - STRIP*/
-.strip {
-  width: 100%;
-  height: 12%;
-  background-color: #afebe4;
-  position: absolute;
-  bottom: 0;
-  border-top: 4px solid #3d4f62;
-  border-bottom: 4px solid #3d4f62;
-}
-/* / HEADER - STRIP*/
 
 nav {
   width: 100%;
@@ -216,22 +196,26 @@ nav {
   margin-left: 4%;
 }
 
-/* HEADER */
+/* HEADER CONTAINER */
 .header-container {
   width: 100%;
+  height: 680px;
   min-width: 1200px;
-  padding: 0 10%;
 }
 
 .jumbotron {
   position: relative;
-  height: 470px;
+  height: 100%;
+  max-height: 680px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .jumbotron-text {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 5%;
+  padding-left: 10%;
 }
 
 .jumbotron-text h1 {
@@ -247,6 +231,18 @@ nav {
 .jumbotron-text p:last-child {
   font-size: 0.8em;
 }
+
+.strip {
+  width: 100%;
+  height: 12%;
+  background-color: #afebe4;
+  position: absolute;
+  bottom: 0;
+  border-top: 4px solid #3d4f62;
+  border-bottom: 4px solid #3d4f62;
+}
+/* / HEADER CONTAINER */
+
 /* / HEADER */
 
 /* MAIN */
