@@ -37,34 +37,38 @@
   <!-- NAV-BAR FISSA -->
   <section class="nav-bar-container bg-grey-color clearfix">
     <div class="nav-bar nav-bar-left float-left col-2">
-      <ul class="menu clearfix">
-        <li class="first-level w-20 float-left">
+      <ul>
+        <li id="languages" class="relative_menu">
           <i class="fas fa-globe-europe"></i><a href="#"> English <i class="fas fa-angle-down"></i></a>
-          <ul>
-            <li>
-              <a href="">日本語</a>
-            </li>
-            <li>
-              <a href="">Deutsch</a>
-            </li>
-            <li>
-              <a href="">English</a>
-            </li>
-            <li>
-              <a href="">Espa&ntilde;ol</a>
-            </li>
-            <li>
-              <a href="">Portug&ecirc;s</a>
-            </li>
-            <li>
-              <a href="">Fran&ccedil;ais</a>
-            </li>
+          <ul class="white_menu_box">
+            <ul class="white_menu_box_container">
+              <ul>
+                <li>
+                  <a href="#">日本語</a>
+                </li>
+                <li>
+                  <a href="#">Deutsch</a>
+                </li>
+                <li>
+                  <a href="#">English</a>
+                </li>
+                <li>
+                  <a href="#">Espa&ntilde;ol</a>
+                </li>
+                <li>
+                  <a href="#">Portug&ecirc;s</a>
+                </li>
+                <li>
+                  <a href="#">Fran&ccedil;ais</a>
+                </li>
+              </ul>
+            </ul>
           </ul>
+
         </li>
-        <li class="w-70 float-left"><a href="#">Contact Us</a></li>
+        <li><a href="#">Contact Us</a></li>
       </ul>
     </div>
-
     <div class="nav-bar nav-bar-right float-left col-2 align-right">
       <ul>
         <li>
@@ -85,18 +89,69 @@
         <img src="assets/img/logo.svg" alt="logo Hubspot" />
       </div>
       <div class="nav-menu nav-menu-right float-left align-right">
-        <ul class="relative_menu">
-          <li id="software">
+        <ul>
+          <li id="software" class="relative_menu">
             <a href="#">Software <i class="fas fa-angle-down"></i></a>
             <ul class="white_menu_box">
-              <li><a href="">ciao</a></li>
-              <li><a href="">salve</a></li>
+              <ul class="white_menu_box_container">
+                <ul>
+                  <li>
+                    <a href="#"><strong>Free HubSpot CRM</strong></a>
+                  </li>
+                  <li>
+                    <p>All your contacts and companies, 100% free</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#"><strong>Marketing Hub</strong></a>
+                  </li>
+                  <li>
+                    <p>Marketing software to increase traffic and leads. Free and premium plans.</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#"><strong>Sales Hub</strong></a>
+                  </li>
+                  <li>
+                    <p>Sales software for closing more deals, faster. Free and premium plans.</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#"><strong>Service Hub</strong></a>
+                  </li>
+                  <li>
+                    <p>Software for providing first-class customer service. Free and premium plans.</p>
+                  </li>
+                </ul>
+                <ul class="relative_menu">
+                  <li>
+                    <a href="#"><strong>CMS Hub</strong></a>
+                  </li>
+                  <li>
+                    <a class="tag" href="#">NEW</a>
+                  </li>
+                  <li>
+                    <p>Content management software to power websites. Premium plans and free trial.</p>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#"><strong>App Marketplace</strong></a>
+                  </li>
+                  <li>
+                    <p>Find HubSpot apps for the tools and software you use to run your business.</p>
+                  </li>
+                </ul>
+              </ul>
             </ul>
           </li>
           <li>
             <a href="#">Pricing </a>
           </li>
-          <li id="resources">
+          <li id="resources" class="relative_menu">
             <a href="#">Resources <i class="fas fa-angle-down"></i></a>
             <ul class="white_menu_box">
               <ul class="white_menu_box_container clearfix">
@@ -180,30 +235,30 @@
             </ul>
 
           </li>
-          <li id="partners">
+          <li id="partners" class="relative_menu">
             <a href="#">Partners <i class="fas fa-angle-down"></i></a>
             <ul class="white_menu_box">
               <ul class="white_menu_box_container clearfix">
-              <ul class="float-left">
-                <li>
-                  <a href="#"><strong>Hire a Partner</strong></a>
-                </li>
-                <li>
-                  <p>Find a partner in our global community of service providers who can help you grow</p>
-                </li>
+                <ul class="float-left">
+                  <li>
+                    <a href="#"><strong>Hire a Partner</strong></a>
+                  </li>
+                  <li>
+                    <p>Find a partner in our global community of service providers who can help you grow</p>
+                  </li>
+                </ul>
+                <ul class="float-left">
+                  <li>
+                    <a href="#"><strong>Partners With Us</strong></a>
+                  </li>
+                  <li>
+                    <p>Find the right partner program to help your business grow</p>
+                  </li>
+                </ul>
               </ul>
-              <ul class="float-left">
-                <li>
-                  <a href="#"><strong>Partners With Us</strong></a>
-                </li>
-                <li>
-                  <p>Find the right partner program to help your business grow</p>
-                </li>
-              </ul>
-            </ul>
             </ul>
           </li>
-          <li id="about">
+          <li id="about" class="relative_menu">
             <a href="#">About <i class="fas fa-angle-down"></i></a>
             <ul class="white_menu_box">
               <ul class="white_menu_box_container clearfix">
@@ -229,7 +284,7 @@
                 </ul>
                 <ul class="float-left">
                   <li>
-                   <strong>News</strong>
+                    <strong>News</strong>
                   </li>
                   <li>
                     <a href="#">HubSpot News</a>
@@ -243,7 +298,7 @@
                 </ul>
                 <ul class="float-left">
                   <li>
-                   <strong>Investors</strong>
+                    <strong>Investors</strong>
                   </li>
                   <li>
                     <a href="#">Investor Relations</a>
@@ -677,5 +732,4 @@
   </footer>
   <!-- FOOTER -->
 </body>
-
 </html>

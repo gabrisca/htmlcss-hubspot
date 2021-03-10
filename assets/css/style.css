@@ -156,7 +156,7 @@ i.fa-check-circle {
   width: 20%;
 }
 
-.chat-cloud-box .bubble{
+.chat-cloud-box .bubble {
   position: absolute;
   bottom: -16%;
   right: 15%;
@@ -183,6 +183,7 @@ i.fa-check-circle {
 .chat:hover .chat-cloud {
   display: block;
 }
+
 /* /CHAT */
 
 /* NAV-BAR FISSA */
@@ -192,7 +193,7 @@ i.fa-check-circle {
   padding: 0 10%;
   border-bottom: 1px solid black;
   position: fixed;
-  z-index: 998;
+  z-index: 1;
   top: 0;
   min-width: 1200px;
 }
@@ -215,13 +216,13 @@ i.fa-check-circle {
   display: inline;
 }
 
-.nav-bar-left .menu .first-level a:nth-child(2) {
+.nav-bar-left li:first-child a {
   border-right: 1px solid black;
-  padding-right: 10%;
+  padding-right: 4%;
 }
 
 .nav-bar-left li:nth-child(2) a {
-  padding-left: 2%;
+  padding-left: 4%;
 }
 
 .nav-bar-right li {
@@ -233,52 +234,7 @@ i.fa-check-circle {
 }
 
 /* NAV-BAR FISSA  - MENU A TENDINA*/
-.menu {
-  width: 100%;
-}
 
-.menu .first-level{
-  position: relative;
-}
-
-.menu ul {
-  width: 100px;
-  position: absolute;
-  top: 60px;
-  left: 6px;
-  padding: 0 10%;
-  background-color: white;
-  z-index: 999;
-  display: none;
-  box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.5);
-}
-
-.menu ul::after{
-  position:absolute;
-  content:"";
-  width: 0;
-  height: 0;
-  top: -10px;
-  right: 4px;
-  border-left: 12px solid transparent;
-  border-right: 12px solid transparent;
-  border-bottom: 12px solid white;
-}
-
-.menu .first-level ul li {
-  display: block;
-  line-height: 40px;
-  text-align: left;
-}
-
-.menu .first-level ul li a {
-  border-right: none;
-}
-
-.menu .first-level:hover ul {
-  display: block;
-  z-index: 999;
-}
 /* /NAV-BAR FISSA  - MENU A TENDINA*/
 /* /NAV-BAR FISSA */
 
@@ -287,6 +243,7 @@ header {
   margin-top: 80px;
   background-color: coral;
 }
+
 /* HEADER - NAV */
 nav {
   width: 100%;
@@ -331,7 +288,7 @@ nav {
   position: relative;
 }
 
-.white_menu_box ul{
+.white_menu_box ul {
   padding: 2%;
 }
 
@@ -341,18 +298,19 @@ nav {
   text-align: left;
 }
 
-.white_menu_box p{
+.white_menu_box p {
   font-size: smaller;
   line-height: 15px;
 }
 
-.white_menu_box ul li a{
+.white_menu_box ul li a {
   margin-left: 0;
 }
 
-.white_menu_box{
+.white_menu_box {
   position: absolute;
-  top: 60px;
+  top: 25px;
+  right: -6%;
   padding: 5px;
   background-color: white;
   z-index: 999;
@@ -360,9 +318,9 @@ nav {
   box-shadow: 1px 1px 11px rgba(0, 0, 0, 0.5);
 }
 
-.white_menu_box::after{
-  position:absolute;
-  content:"";
+.white_menu_box::after {
+  position: absolute;
+  content: "";
   width: 0;
   height: 0;
   top: -10px;
@@ -377,7 +335,7 @@ nav {
   margin: auto;
 }
 
-
+#languages:hover .white_menu_box,
 #software:hover .white_menu_box,
 #resources:hover .white_menu_box,
 #partners:hover .white_menu_box,
@@ -387,45 +345,91 @@ nav {
 
 /* / HEADER MENU TENDINA GENERAL */
 
-/* MENU TENDINA SOFTWARE */
-#software .white_menu_box{
-  right: 54.8%;
+/* MENU TENDINA LANGUAGES */
+#languages .white_menu_box {
+  width: 100px;
+  left: 4%;
 }
-/* / MENU TENDINA SOFTWARE */
 
-/* MENU TENDINA RESOURCES */
-#resources .white_menu_box_container:nth-child(1) {
+#languages .white_menu_box ul a {
+  padding-left: 0;
+  border: none;
+}
+
+/* /MENU TENDINA LANGUAGES */
+
+
+/* MENU TENDINA SOFTWARE */
+#software .white_menu_box {
+  width: 500px;
+}
+
+#software .white_menu_box_container .tag {
+  position: absolute;
+  top: 15px;
+  left: 105px;
+  width: 40px;
+  height: 25px;
+  line-height: 25px;
+  background-color: #2fbda5;
+  color: white;
+  text-align: center;
+  font-size: 0.7em;
+  border-radius: 5px;
+}
+
+#software .white_menu_box_container .tag:hover {
+  background-color: red;
+}
+
+#software .white_menu_box_container ul:nth-child(1),
+#software .white_menu_box_container ul:nth-child(5) {
   border-bottom: 1px solid lightgray;
 }
 
+#software .white_menu_box_container ul {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#software .white_menu_box_container ul:nth-child(6) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+/* / MENU TENDINA SOFTWARE */
+
+/* MENU TENDINA RESOURCES */
+#resources .white_menu_box_container:nth-child(1),
 #resources .white_menu_box_container:nth-child(2) {
   border-bottom: 1px solid lightgray;
 }
 
-#resources .white_menu_box{
+#resources .white_menu_box {
   width: 990px;
-  right: 26%;
 }
 
 #resources .white_menu_box .white_menu_box_container ul {
   width: calc(100% / 3);
 }
+
 /* MENU TENDINA RESOURCES */
 
 /* MENU TENDINA PARTNERS */
 #partners .white_menu_box {
-  right: 11%;
+  width: 500px;
 }
 
 #partners .white_menu_box .white_menu_box_container ul {
   width: calc(100% / 2);
 }
+
 /* /MENU TENDINA PARTNERS */
 
 /* MENU TENDINA ABOUT */
-#about .white_menu_box{
+#about .white_menu_box {
   width: 500px;
-  right: -1.5%;
+  right: -13%;
 }
 
 #about .white_menu_box .white_menu_box_container ul {
@@ -436,13 +440,9 @@ nav {
   font-size: smaller;
   line-height: 15px;
 }
+
 /* /MENU TENDINA ABOUT */
-
-
-
 /* / HEADER MENU TENDINA */
-
-
 
 /* / HEADER - NAV */
 /* HEADER CONTAINER */
