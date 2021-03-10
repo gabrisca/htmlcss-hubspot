@@ -326,15 +326,20 @@ nav {
   margin-left: 4%;
 }
 
+/* HEADER MENU TENDINA */
 .relative_menu {
   position: relative;
 }
 
-#partners .white_menu_box {
-  width: 100px;
+.white_menu_box li {
+  display: block;
+  line-height: 40px;
+  text-align: left;
+}
+
+.white_menu_box{
   position: absolute;
   top: 60px;
-  right: 11%;
   padding: 0 10%;
   background-color: white;
   z-index: 999;
@@ -354,20 +359,36 @@ nav {
   border-bottom: 12px solid white;
 }
 
-.white_menu_box li {
+#software .white_menu_box{
+  right: 54.8%;
+}
+
+#resources .white_menu_box{
+  right: 26%;
+}
+
+#about .white_menu_box{
+  right: -1.5%;
+}
+
+#partners .white_menu_box {
+  width: 100px;
+  right: 11%;
+}
+
+#software:hover .white_menu_box,
+#resources:hover .white_menu_box,
+#partners:hover .white_menu_box,
+#about:hover .white_menu_box {
   display: block;
-  line-height: 40px;
-  text-align: left;
 }
 
 #partners{
-  width: 100%;
+  /* width: 100%; */
 }
 
-#partners:hover .white_menu_box {
-  display: block;
-  z-index: 999;
-}
+/* / HEADER MENU TENDINA */
+
 
 
 /* / HEADER - NAV */
@@ -777,31 +798,3 @@ footer p {
   padding-left: 5%;
 }
 /* / FOOTER */
-
-/* MENU BOTTON FIXED */
-
-/* .chat:focus .chat-cloud{
-  visibility: visible;
-} */
-
-/* .chat:hover .chat-cloud{
-  visibility: visible;
-} */
-
-/* .clicker {
-  width:100px;
-  height:100px;
-  background-color:blue;
-  outline:none;
-  cursor:pointer;
-  }
-  
-  .hiddendiv{
-  display:none;
-  height:200px;
-  background-color:green;
-  }
-  
-  .clicker:focus + .hiddendiv{
-  display:block;
-  } */
