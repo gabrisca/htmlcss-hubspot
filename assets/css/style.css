@@ -326,9 +326,13 @@ nav {
   margin-left: 4%;
 }
 
-/* HEADER MENU TENDINA */
+/* HEADER MENU TENDINA GENERAL */
 .relative_menu {
   position: relative;
+}
+
+.white_menu_box ul{
+  padding: 2%;
 }
 
 .white_menu_box li {
@@ -368,28 +372,11 @@ nav {
   border-bottom: 12px solid white;
 }
 
-#software .white_menu_box{
-  right: 54.8%;
+.white_menu_box_container {
+  width: 95%;
+  margin: auto;
 }
 
-#resources .white_menu_box{
-  right: 26%;
-}
-
-#about .white_menu_box{
-  right: -1.5%;
-}
-
-#partners .white_menu_box {
-  width: 500px;
-  /* height: 200px; */
-  right: 11%;
-}
-
-#partners .white_menu_box ul {
-  width: calc(100% / 2);
-  padding: 3%;
-}
 
 #software:hover .white_menu_box,
 #resources:hover .white_menu_box,
@@ -398,9 +385,60 @@ nav {
   display: block;
 }
 
-#partners{
-  /* width: 100%; */
+/* / HEADER MENU TENDINA GENERAL */
+
+/* MENU TENDINA SOFTWARE */
+#software .white_menu_box{
+  right: 54.8%;
 }
+/* / MENU TENDINA SOFTWARE */
+
+/* MENU TENDINA RESOURCES */
+#resources .white_menu_box_container:nth-child(1) {
+  border-bottom: 1px solid lightgray;
+}
+
+#resources .white_menu_box_container:nth-child(2) {
+  border-bottom: 1px solid lightgray;
+}
+
+#resources .white_menu_box{
+  width: 990px;
+  right: 26%;
+}
+
+#resources .white_menu_box .white_menu_box_container ul {
+  width: calc(100% / 3);
+}
+/* MENU TENDINA RESOURCES */
+
+/* MENU TENDINA PARTNERS */
+#partners .white_menu_box {
+  right: 11%;
+}
+
+#partners .white_menu_box .white_menu_box_container ul {
+  width: calc(100% / 2);
+}
+/* /MENU TENDINA PARTNERS */
+
+/* MENU TENDINA ABOUT */
+#about .white_menu_box{
+  width: 500px;
+  right: -1.5%;
+}
+
+#about .white_menu_box .white_menu_box_container ul {
+  width: calc(100% / 3);
+}
+
+#about .white_menu_box .white_menu_box_container ul a {
+  font-size: smaller;
+  line-height: 15px;
+}
+/* /MENU TENDINA ABOUT */
+
+
 
 /* / HEADER MENU TENDINA */
 
