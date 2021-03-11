@@ -233,9 +233,6 @@ i.fa-check-circle {
   color: #25a4bd;
 }
 
-/* NAV-BAR FISSA  - MENU A TENDINA*/
-
-/* /NAV-BAR FISSA  - MENU A TENDINA*/
 /* /NAV-BAR FISSA */
 
 /* HEADER */
@@ -357,7 +354,6 @@ nav {
 }
 
 /* /MENU TENDINA LANGUAGES */
-
 
 /* MENU TENDINA SOFTWARE */
 #software .white_menu_box {
@@ -850,4 +846,5 @@ footer p {
   display: inline-block;
   padding-left: 5%;
 }
+
 /* / FOOTER */
